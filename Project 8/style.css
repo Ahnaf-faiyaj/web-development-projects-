@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    overflow: hidden;
+}
+
+body{
+    background: rgb(0,0,0);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: "Black Ops One", system-ui;
+}
+.navber{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+}
+.logo{
+    font-size: 2.5rem;
+    background: linear-gradient(45deg, #000dff, #ff00e6, #ff7700);
+    /* color: transparent;
+    background-clip: text; */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.menu li{
+    font-size: 1.2rem;
+    transition: 0.4s;
+}
+.menu li:hover{
+    transform: scale(1.3);
+    background: linear-gradient(45deg, #434cff, #55ac3ae0, #bd953f,#d41b14c2,#ff03b3ce);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.btn1{
+    color: white;
+    padding: 10px 40px;
+    border-radius: 18px;
+    border: none;
+    background: linear-gradient(45deg, #000dff, #ff00e6, #ff7700);
+    transition: 0.4s;
+}
+
+.btn1:hover{
+    transform: scale(1.1);
+}
+
+.mainarea{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    flex-direction: column;
+}
+.text1{
+    margin-top: 30px;
+    font-size: 3rem;
+    background: linear-gradient(45deg, #886c1fc2, #0f8633cb, #2634b1ce);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100% ;
+    transform: scale(1.5);
+    z-index: -1;
+}

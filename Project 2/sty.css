@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+.intro{
+    height: 35%;
+    width: 100%;
+    padding:50px;
+
+}
+.intro h1{
+    letter-spacing: 6px;
+    font-size: 100px;
+    line-height: 108px;
+}
+.place{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.place h5{
+    font-size: 20px;
+    font-weight: 500;
+}
+img{
+    height: 70%;
+    width: 100%;
+    /* background-image: url(https://pbs.twimg.com/media/Fw72tysXgAcp9EO?format=jpg&name=900x900) ; */
+}
